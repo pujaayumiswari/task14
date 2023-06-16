@@ -1,0 +1,8 @@
+.bg-orange {
+  background-color: black !important;
+}
+.bg-orange:hover{
+  background-color: rgb(107, 169, 227)!important;
+}
+
+/*style home*/

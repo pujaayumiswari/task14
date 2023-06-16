@@ -1,0 +1,74 @@
+.container {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(3, 0.8fr);
+  justify-content: center;
+}
+.testimonial {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding-top: 10px;
+  
+}
+
+.testimonial .profile-testimonial {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.quote {
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  margin-left: 10px;
+
+}
+
+.author {
+  font-weight: bold;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.container-rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating-btn {
+  margin: 15px 0;
+  padding: 0 20px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgb(230, 83, 81);
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+  .testimonial {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .testimonial {
+    width: 80%;
+  }
+}
+
+   
+
+    
+    
